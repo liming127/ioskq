@@ -16,6 +16,12 @@
 		9A4E36951C5A3F2800AA15AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E36931C5A3F2800AA15AB /* LaunchScreen.storyboard */; };
 		9A4E36A01C5A3F2800AA15AB /* deducationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E369F1C5A3F2800AA15AB /* deducationTests.m */; };
 		9A4E36AB1C5A3F2800AA15AB /* deducationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E36AA1C5A3F2800AA15AB /* deducationUITests.m */; };
+		9AB8805D1C5A4A42005584A5 /* base in Resources */ = {isa = PBXBuildFile; fileRef = 9AB880571C5A4A42005584A5 /* base */; };
+		9AB8805E1C5A4A42005584A5 /* controllers in Resources */ = {isa = PBXBuildFile; fileRef = 9AB880581C5A4A42005584A5 /* controllers */; };
+		9AB8805F1C5A4A42005584A5 /* models in Resources */ = {isa = PBXBuildFile; fileRef = 9AB880591C5A4A42005584A5 /* models */; };
+		9AB880601C5A4A42005584A5 /* nets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8805A1C5A4A42005584A5 /* nets */; };
+		9AB880611C5A4A42005584A5 /* threedutils in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8805B1C5A4A42005584A5 /* threedutils */; };
+		9AB880621C5A4A42005584A5 /* views in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8805C1C5A4A42005584A5 /* views */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		9A4E36A61C5A3F2800AA15AB /* deducationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deducationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4E36AA1C5A3F2800AA15AB /* deducationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deducationUITests.m; sourceTree = "<group>"; };
 		9A4E36AC1C5A3F2800AA15AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB880571C5A4A42005584A5 /* base */ = {isa = PBXFileReference; lastKnownFileType = folder; path = base; sourceTree = "<group>"; };
+		9AB880581C5A4A42005584A5 /* controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = controllers; sourceTree = "<group>"; };
+		9AB880591C5A4A42005584A5 /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = models; sourceTree = "<group>"; };
+		9AB8805A1C5A4A42005584A5 /* nets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nets; sourceTree = "<group>"; };
+		9AB8805B1C5A4A42005584A5 /* threedutils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = threedutils; sourceTree = "<group>"; };
+		9AB8805C1C5A4A42005584A5 /* views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = views; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 		9A4E36811C5A3F2700AA15AB /* deducation */ = {
 			isa = PBXGroup;
 			children = (
+				9AB880571C5A4A42005584A5 /* base */,
+				9AB880581C5A4A42005584A5 /* controllers */,
+				9AB880591C5A4A42005584A5 /* models */,
+				9AB8805A1C5A4A42005584A5 /* nets */,
+				9AB8805B1C5A4A42005584A5 /* threedutils */,
+				9AB8805C1C5A4A42005584A5 /* views */,
 				9A4E36851C5A3F2700AA15AB /* AppDelegate.h */,
 				9A4E36861C5A3F2700AA15AB /* AppDelegate.m */,
 				9A4E36881C5A3F2700AA15AB /* ViewController.h */,
@@ -246,9 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB880611C5A4A42005584A5 /* threedutils in Resources */,
+				9AB8805E1C5A4A42005584A5 /* controllers in Resources */,
 				9A4E36951C5A3F2800AA15AB /* LaunchScreen.storyboard in Resources */,
+				9AB880621C5A4A42005584A5 /* views in Resources */,
+				9AB8805F1C5A4A42005584A5 /* models in Resources */,
+				9AB880601C5A4A42005584A5 /* nets in Resources */,
 				9A4E36921C5A3F2800AA15AB /* Assets.xcassets in Resources */,
 				9A4E368D1C5A3F2700AA15AB /* Main.storyboard in Resources */,
+				9AB8805D1C5A4A42005584A5 /* base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +524,7 @@
 				9A4E36B11C5A3F2800AA15AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A4E36B21C5A3F2800AA15AB /* Build configuration list for PBXNativeTarget "deducationTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +533,7 @@
 				9A4E36B41C5A3F2800AA15AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A4E36B51C5A3F2800AA15AB /* Build configuration list for PBXNativeTarget "deducationUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +542,7 @@
 				9A4E36B71C5A3F2800AA15AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
